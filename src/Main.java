@@ -1,10 +1,36 @@
 public class Main {
+    public static void main(String[] args) {
+        int result = add(3,8);
+        System.out.println(result);
+
+        int result2 = addTwo(3,8,4,9);
+        System.out.println(result2);
+
+        String line = afternoonGreeting("Mac Miller");
+        System.out.println(line);
+
+        String line2 = morningGreeting("Toby Fox");
+        System.out.println(line2);
+
+        String line3 = triple("oohbaby");
+        System.out.println(line3);
+
+        double equals = half(15);
+        System.out.println(equals);
+
+        int pos = roundPositiveValueToNearestInteger(8.49);
+        System.out.println(pos);
+
+        int neg = roundNegativeValueToNearestInteger(-8.5);
+        System.out.println(neg);
+
+    }
 
     public static int add(int a, int b) {
         return a + b;
     }
 
-    public static int add(int a, int b, int c, int d) {
+    public static int addTwo(int a, int b, int c, int d) {
         return a + b + c + d;
     }
 

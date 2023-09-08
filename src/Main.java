@@ -31,6 +31,9 @@ public class Main {
     }
 
     public static int addTwo(int a, int b, int c, int d) {
+        add(1,3);
+        add(1,3);
+        add(1,3);
         return a + b + c + d;
     }
 
